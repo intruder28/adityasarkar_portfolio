@@ -14,9 +14,9 @@
     <body>
         
         <header>
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-faded">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <a class="navbar-brand mx-auto" href="#">Aditya Sarkar</a>
+                    <a class="navbar-brand" href="#">Aditya Sarkar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navToggle">
@@ -35,10 +35,35 @@
         
         <main>
             <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <div class="intro-text mw-100 d-flex justify-content-center mx-100">
-                            <div id="typed" data-target="#typed"></div>
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-4 col-sm-12 col-lg-4 mt-4">
+                        <div class="card border-dark">
+                          <img class="card-img-top" src="img/IMG_9472.JPG" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Web Designing</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Know More.</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 mt-4">
+                        <div class="card border-dark">
+                          <img class="card-img-top" src="img/IMG_9472.JPG" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">UI / UX Designing</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Know More.</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 mt-4">
+                        <div class="card border-dark">
+                          <img class="card-img-top" src="img/IMG_9472.JPG" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Graphic Designing</h4>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="btn btn-primary">Know More.</a>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -47,10 +72,6 @@
         
         <footer>
         </footer>
-        
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <!--Loading typed.js here-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>        
         
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -62,36 +83,6 @@
         
         <!-- Optional JavaScript -->
         <script src="script.js"></script>
-        
-        
-        <script>
-            $(function(){
-	$("#typed").typed({
-		strings: ["Developers.", "Designers.", "People."],
-		// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-		stringsElement: null,
-		// typing speed
-		typeSpeed: 30,
-		// time before typing starts
-		startDelay: 1200,
-		// backspacing speed
-		backSpeed: 20,
-		// time before backspacing
-		backDelay: 500,
-		// loop
-		loop: true,
-		// false = infinite
-		loopCount: 5,
-		// show cursor
-		showCursor: false,
-		// character for cursor
-		cursorChar: "|",
-		// attribute to type (null == text)
-		attr: null,
-	});
-});
-
-        </script>
-        
+             
   </body>
 </html>
