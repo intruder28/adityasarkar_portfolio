@@ -38,11 +38,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="intro-text mw-100 d-flex justify-content-center mx-100 align-middle">
-                            <div id="typed-strings">
-    <p>Typed.js is a <strong>JavaScript</strong> library.</p>
-    <p>It <em>types</em> out sentences.</p>
-</div>
-<span id="typed"></span>
+                            <div class="element yellow-text animated slideInRight"></div>
                         </div>
                     </div>
                 </div>
@@ -58,10 +54,17 @@
         <!--Loading typed.js here-->
         <script src="typed.min.js"></script>
         
-        <script> var typed = new Typed('.element', {
-    stringsElement: '#typed-strings'
-  });</script>
-        
+        <script>
+            $(function(){
+            $(".element").typed({
+            strings: ["21.","A Web Designer.", "Illustrator.","Explorer."],
+            typeSpeed: 10,
+            backDelay: 2000,
+            contentType: 'html', // or text
+            loop: true
+            });
+            });
+        </script>
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         
