@@ -26,3 +26,23 @@
 #name {
     text-shadow: 1px 1px #ccc;
 }
+
+.img-box {
+    height: 300px;
+    background-color: #fc4345;
+}
+
+.abt-box {
+    height: 500px;
+    background-color: #56c767;
+}
+
+.work-box {
+    background-color: #590fcd;
+    height: 300px;
+}
+
+.contact-box {
+    background-color: #c67534;
+    height: 200px;
+}
