@@ -28,13 +28,15 @@
 }
 
 .img-box {
-    height: 300px;
-    background-color: #fc4345;
+    height: 350px;
+    display: block;
+    position: relative;
 }
 
 .abt-box {
     height: 500px;
-    background-color: #56c767;
+    background-color: #1d1a2a;
+    padding: 50px;
 }
 
 .work-box {
@@ -46,3 +48,5 @@
     background-color: #c67534;
     height: 200px;
 }
+
+
