@@ -10,7 +10,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css">
-        <script src="https://use.fontawesome.com/94848939f3.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     </head>
     <body>
         
@@ -53,9 +53,9 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-4 col-lg-4 w-box p-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/accn%20logo.png" alt="Card image cap" style="padding: 50px">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><strong>Accenture</strong></h5>
+                                    <img class="card-img-top" src="img/accn%20logo.png" alt="Card image cap" style="width: 100%; height: 150px; padding: 20px">
+                                    <div class="card-body" style="height: 300px">
+                                        <h5 class="card-title lead"><strong>Accenture</strong></h5>
                                         <small class="text-muted" style="font-size: 14px; font-style: italic">2016 - Present</small>
                                         <p class="card-text text-justify mt-3 mb-4 mx-1">Working as a New Associate in the field of Project Management, offering Automated Project Management Solutions to various clients. Experienced in various process automation techniques including browser automation.</p>
                                     </div>
@@ -63,26 +63,72 @@
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4 w-box p-3">
                                 <div class="card">
-                                    <img class="card-img-top" src="img/MVBit.png" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title"><strong>Accenture</strong></h5>
-                                        <small class="text-muted" style="font-size: 14px; font-style: italic">2016 - Present</small>
-                                        <p class="card-text text-justify mt-3 mb-4 mx-1">Working as a New Associate in the field of Project Management, offering Automated Project Management Solutions to various clients. Experienced in various process automation techniques including browser automation.</p>
+                                    <img class="card-img-top" src="img/MVBit.png" alt="Card image cap" style="width: 100%; height: 150px; padding: 20px">
+                                    <div class="card-body" style="height: 300px">
+                                        <h5 class="card-title lead"><strong>MVB IT Solutions</strong></h5>
+                                        <small class="text-muted" style="font-size: 14px; font-style: italic">2015 - 2016</small>
+                                        <p class="card-text text-justify mt-3 mb-4 mx-1">I was responsible for designing mock ups. Dealing with clients, getting the requirements and then working according to the given guidelines.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-4 col-lg-4 w-box p-3">
                                 <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    <img class="card-img-top" src="img/addes.jpg" alt="Card image cap" style="width: 100%; height: 150px; padding: 20px">
+                                    <div class="card-body" style="height: 300px">
+                                        <h5 class="card-title lead"><strong>Aditya Sarkar Designs</strong></h5>
+                                        <small class="text-muted" style="font-size: 14px; font-style: italic">2015 - Present</small>
+                                        <p class="card-text text-justify mt-3 mb-4 mx-1">Working as a Freelancer in the field of Web Designing, offering complete Web Development Solutions.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 col-lg-4 contact-box"></div>
+                </div>
+                <div class="row">
+                <!-- Modal -->
+                    <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="messageModalLabel">New message</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <form>
+                              <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                              </div>
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </form>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Send message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 work-box">
+                        <h2 class="display-4 text-white text-center mb-3 mt-3">Skills</h2>
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-html5 animated fadeInDown fa-6x"></i></li>
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-css3-alt animated fadeInDown fa-6x" aria-hidden="true"></i></li>
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-js animated fadeInDown fa-6x" aria-hidden="true"></i></li>
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-android animated fadeInDown fa-6x" aria-hidden="true"></i></li>
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-java animated fadeInDown fa-6x" aria-hidden="true"></i></li>
+                            <li class="list-inline-item mx-4 px-1 text-white"><i class="fab fa-windows animated fadeInDown fa-6x" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 work-box pt-5 text-center" style="padding-bottom: 50px">
+                        <h4 class="display-4 text-white text-center">Let's Catch up over a cup of tea</h4>
+                        <a class="btn btn-primary btn-lg text-white mb-5 mt-5 px-5" data-toggle="modal" data-target="#messageModal">Contact Me</a>
+                    </div>
                 </div>
             </div>
         </main>
@@ -93,11 +139,11 @@
                     <div class="col-sm-12">
                         <nav class="navbar navbar-dark bg-dark fixed-bottom d-flex justify-content-center">
                             <ul class="list-inline m-0">
-                              <li class="list-inline-item mx-1 px-1"><a href="https://www.facebook.com/aditya.sarkar28" style="font-size: 24px; color: white"><i class="fa fa-facebook-square animated fadeInDown" aria-hidden="true"></i></a></li>
-                              <li class="list-inline-item mx-1 px-1"><a href="https://www.linkedin.com/in/adityasarkar/" style="font-size: 24px; color: white"><i class="fa fa-linkedin-square animated fadeInDown" aria-hidden="true"></i></a></li>
-                              <li class="list-inline-item mx-1 px-1"><a href="behance.net/adityasarkar" style="font-size: 24px; color: white"><i class="fa fa-behance-square animated fadeInDown" aria-hidden="true"></i></a></li>
-                              <li class="list-inline-item mx-1 px-1"><a href="https://twitter.com/adityasarkar28" style="font-size: 24px; color: white"><i class="fa fa-twitter-square animated fadeInDown" aria-hidden="true"></i></a></li>
-                              <li class="list-inline-item mx-1 px-1"><a href="https://www.instagram.com/sarkar_aditya/" style="font-size: 24px; color: white"><i class="fa fa-instagram animated fadeInDown" aria-hidden="true"></i></a></li>
+                              <li class="list-inline-item mx-1 px-1"><a href="https://www.facebook.com/aditya.sarkar28" style="font-size: 24px; color: white"><i class="fab fa-facebook-square"></i></a></li>
+                              <li class="list-inline-item mx-1 px-1"><a href="https://www.linkedin.com/in/adityasarkar/" style="font-size: 24px; color: white"><i class="fab fa-linkedin animated fadeInDown" aria-hidden="true"></i></a></li>
+                              <li class="list-inline-item mx-1 px-1"><a href="behance.net/adityasarkar" style="font-size: 24px; color: white"><i class="fab fa-behance-square animated fadeInDown" aria-hidden="true"></i></a></li>
+                              <li class="list-inline-item mx-1 px-1"><a href="https://twitter.com/adityasarkar28" style="font-size: 24px; color: white"><i class="fab fa-twitter-square animated fadeInDown" aria-hidden="true"></i></a></li>
+                              <li class="list-inline-item mx-1 px-1"><a href="https://www.instagram.com/sarkar_aditya/" style="font-size: 24px; color: white"><i class="fab fa-instagram animated fadeInDown" aria-hidden="true"></i></a></li>
                             </ul>
                         </nav>
                     </div>
