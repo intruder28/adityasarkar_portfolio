@@ -38,7 +38,7 @@
 
 .abt-box {
     background-color: #1d1a2a;
-    padding: 50px;
+    padding: 50px 50px 0px 50px;
     margin-top: -100px;
     z-index: -1;
     position: relative;
